@@ -11,6 +11,9 @@ This Project is for use of the course "Praktikum Konzepte der Regelungstechnik" 
 ## Features
 We have applied the LQR control algorithms for that QUANSER 3-DOF Helicopter Model. As a preparation we first established the motion equations of the helicopter, and linearize it as a state-space model (A,B,C,D). The LQR state-feedback K can then be calculated by MATLAB function lqr() while the control input is given as u = -Kx. For manipulating the helicopter, the Simulink interface QUARC has been used, by which the helicopter is drived through QUANSER Q8-USB Data Acquisition Board according to signals in Simulink. 
 
+## Contributions
+The scripts are written by me, Y. Wang, and my colleagues J. Pfingsten and Y. Assanov.
+
 ## Acknowledgements
 
 This project uses MATLAB software by MathWorks. MATLAB is a registered trademark of The MathWorks, Inc. For more information about MATLAB and to obtain a license, please visit [mathworks.com](https://www.mathworks.com/).
